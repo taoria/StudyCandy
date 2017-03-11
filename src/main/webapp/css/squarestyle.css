@@ -1,0 +1,96 @@
+.squarebanner{
+	width: 100%;
+	height: 200px;
+	font-size: 60px;
+	text-align: center;
+	line-height: 200px;
+}
+.squarenav{
+	position: relative;
+	margin: 0 auto;
+	width: 810px;
+	height: 200px;
+}
+.sbox{
+	float: left;
+}
+.susername{
+	font-size: 24px;
+	width: 150px;
+	margin: 10px 50px;
+	text-align: center;
+}
+.suserimg{
+	margin: 0 50px;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	border:solid 2px #cac8c8;
+}
+.suserimg img{
+	width: 100%;
+	height: 100%;
+	border-radius: 75px;
+}
+.bbox{
+	width: 800px;
+	height: 180px;
+	margin: 10px 0;
+	float: left;
+}
+.cbox{
+	width: 810px;
+	height: 55px;
+	margin-top: 30px;
+}
+.search{
+	width: 800px;
+	height: 50px;
+	border:solid 1px black;
+	border-radius: 25px;
+	line-height: 50px;
+	text-indent: 20px;
+}
+.search  input[type='text']{
+	font-size: 18px;
+	line-height: 30px;
+	height: 30px;
+	width: 700px;
+	margin: 10px 0;
+	border:none;
+}
+.searchbtn{
+	text-indent: 8px;
+	font-size: 26px;
+	letter-spacing: 18px;
+	text-align: center;
+	line-height: 50px;
+	margin-right: 60px;
+	border:solid 1px black;
+	border-radius: 25px;
+	width: 370px;
+	height: 50px;
+	float: left;
+}
+.pub{
+	text-indent: 8px;
+	font-size: 26px;
+	letter-spacing: 18px;
+	text-align: center;
+	line-height: 50px;
+	border:solid 1px black;
+	border-radius: 25px;
+	width: 370px;
+	height: 50px;
+	float: left;
+}
+.squarebody{
+	margin: 0 auto;
+	width: 960px;
+	border:solid 1px red;
+}
+.squaremsg{
+	width: 960px;
+	height: 300px;
+	border:solid black 1px;
+}

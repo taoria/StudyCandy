@@ -6,7 +6,7 @@
          version="3.0">
 
     <display-name>web-ssm</display-name>
-    
+
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath:spring-mybatis.xml</param-value>
@@ -60,7 +60,7 @@
     </servlet-mapping>
 
     <welcome-file-list>
-        <welcome-file>/index.jsp</welcome-file>
+        <welcome-file>/user.jsp</welcome-file>
     </welcome-file-list>
 
     <!-- session配置 -->

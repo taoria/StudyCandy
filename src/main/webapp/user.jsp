@@ -12,8 +12,8 @@
     <meta charset="utf-8">
     <title>个人中心</title>
     <!-- css -->
-    <link rel="stylesheet" type="text/css" href="css/userstyle.css">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="${_static_}css/userstyle.css">
+    <link href="${_static_}css/style.css" rel="stylesheet">
     <!-- skin color -->
     <link rel="shortcut icon" href="img/favicon.ico">
 </head>
@@ -71,14 +71,14 @@
     </div>
 </div>
 
-<div class="footerb">
-    <div class="footerlogo">
-        <img src="img/logo-image.png">
-    </div>
-    <div class="footerword">
-        &copy;Copyright 2017. yxm. All rights reserved.
-    </div>
-</div>
+<%--<div class="footerb">--%>
+    <%--<div class="footerlogo">--%>
+        <%--<img src="img/logo-image.png">--%>
+    <%--</div>--%>
+    <%--<div class="footerword">--%>
+        <%--&copy;Copyright 2017. yxm. All rights reserved.--%>
+    <%--</div>--%>
+<%--</div>--%>
 
 
 <script src="js/jquery.js"></script>
