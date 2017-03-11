@@ -4,13 +4,14 @@
 <meta charset="utf-8">
 <title>Login</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!-- css -->
-<link rel="stylesheet" type="text/css" href="css/loginstyle.css">
+<link rel="stylesheet" type="text/css" href="../css/loginstyle.css">
 </head>
 <body>
 		<div class="loginheader">
 			<div class="headerimg">
-				<img src="img/logo-image.png">
+				<img src="../img/logo-image.png">
 			</div>
 			<div class="brand"><a href="#"><h1 id="h">学糖</h1></a></div>
 		</div>
