@@ -1,6 +1,6 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="utf-8" %>
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="zh-cn">
 <head>
 <meta charset="utf-8">
 <title>Login</title>
@@ -22,18 +22,19 @@
 				<h1>登录</h1> <br>
 
 				</div>
+				<form name="login" method="post" action="/user/login">
 				<div class="lgbody">
-				用户名：&nbsp;&nbsp;<input type="text"></input></br></br>
-				密&nbsp;码：&nbsp;&nbsp;<input type="password"></input></br></br>
+				用户名：&nbsp;&nbsp;<input type="text" name="username"></br></br>
+				密&nbsp;码：&nbsp;&nbsp;<input type="password" name="password"></br></br>
 				
 				</div>
 				<div class="lgfooter">
-				图片验证码：<input></input></br></br></br>&nbsp;&nbsp;
-					<input type="submit" value="提交"></input>
-					<input type="reset" value="重置"></input>
+				图片验证码：<input name="image"></br></br></br>&nbsp;&nbsp;
+					<input type="submit" value="提交">
+					<input type="reset" value="重置">
 					<h5><a href="">&nbsp;忘记密码&nbsp;</a></h5>
-
 				</div>
+				</form>
 			</div>
 		</div>
 		<div class="loginfooter">

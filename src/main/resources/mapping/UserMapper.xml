@@ -11,7 +11,7 @@
         <result column="pwd_salt" property="pwdSalt" jdbcType="VARCHAR"/>
         <result column="create_time" property="createTime" jdbcType="DATE"/>
         <result column="modify_time" property="modifyTime" jdbcType="DATE"/>
-        <result column="is_delete" property="isDelete" jdbcType="SMALLINT"></result>
+        <result column="is_delete" property="isDelete" jdbcType="SMALLINT"/>
     </resultMap>
 
     <select id="selectUserById" parameterType="java.lang.Long" resultMap="UserBaseMap">
@@ -28,5 +28,15 @@
     <select id="selectAllUser" resultMap="UserBaseMap">
         SELECT * FROM t_user
     </select>
+
+    <select id="selectUserByName" resultMap="UserBaseMap">
+        SELECT * FROM t_user
+        WHERE user_name = #{username}
+    </select>
+
+    <insert id="insertUser">
+        INSERT INTO t_user(user_name,user_pwd)
+        VALUES (#{username},#{password})
+    </insert>
 
 </mapper>

@@ -3,6 +3,7 @@ package com.heitian.ssm.service.impl;
 import com.heitian.ssm.dao.UserDao;
 import com.heitian.ssm.model.User;
 import com.heitian.ssm.service.UserService;
+import com.heitian.ssm.util.MD5String;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -30,5 +31,13 @@ public class UserServiceImpl implements UserService {
     
     public List<User> getAllUser() {
         return userDao.selectAllUser();
+    }
+
+    public User getUserByName(String username){
+        return userDao.selectUserByName(username);
+    }
+
+    public void setUser(String username,String password){
+        userDao.insertUser(username, MD5String.getMD5Str(password));
     }
 }

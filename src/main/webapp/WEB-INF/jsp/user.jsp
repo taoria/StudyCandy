@@ -5,17 +5,17 @@
   Time: 14:51
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="utf-8" %>
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="zh-cn">
 <head>
     <meta charset="utf-8">
     <title>个人中心</title>
     <!-- css -->
-    <link rel="stylesheet" type="text/css" href="../../static/css/userstyle.css">
-    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../static/css/userstyle.css">
+    <link href="../static/css/style.css" rel="stylesheet">
     <!-- skin color -->
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="../static/img/favicon.ico">
 </head>
 <body>
 <div class="navbar-wrapper">
@@ -25,7 +25,7 @@
                 <!-- Responsive navbar -->
                 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                 </a>
-                <h1 class="brand"><a href="index.html" tppabs="#">学糖</a></h1>
+                <h1 class="brand"><a href="../static/index.jsp" tppabs="#">学糖</a></h1>
                 <!-- navigation -->
                 <nav class="pull-right nav-collapse collapse">
                     <ul id="menu-main" class="nav">
@@ -42,7 +42,7 @@
     </div>
 </div>
 <div class="usermsg">
-    <div class="userphoto"><img src="../img/userphoto.jpg"></div>
+    <div class="userphoto"><img src="../static/img/userphoto.jpg"></div>
     <div class="usermain">
         <!-- <div class="choose">显示昵称</div> -->
         <div class="uname">这里是用户名</div>
@@ -73,7 +73,7 @@
 
 <div class="footerb">
     <div class="footerlogo">
-        <img src="../img/logo-image.png">
+        <img src="../static/img/logo-image.png">
     </div>
     <div class="footerword">
         &copy;Copyright 2017. yxm. All rights reserved.
@@ -81,7 +81,7 @@
 </div>
 
 
-<script src="../js/jquery.js"></script>
+<script src="../static/js/jquery.js"></script>
 <script type="text/javascript">
     $(function(){
         $(".tab_menu ul li").click(function(){$(this).addClass("on").siblings().removeClass("on");
