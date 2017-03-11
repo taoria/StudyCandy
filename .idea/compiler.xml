@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="StudyCandy" />
+        <module name="web-ssm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="StudyCandy" target="1.5" />
+      <module name="web-ssm" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
