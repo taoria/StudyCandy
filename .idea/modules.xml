@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/StudyCandy.iml" filepath="$PROJECT_DIR$/.idea/StudyCandy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-ssm.iml" filepath="$PROJECT_DIR$/web-ssm.iml" />
     </modules>
   </component>
 </project>
