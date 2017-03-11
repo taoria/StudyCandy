@@ -34,7 +34,7 @@ public class UserController {
     @RequestMapping("/log")
     public String log(HttpServletRequest request, Model model){
         log.info("用户跳转到登录界面");
-        return "";
+        return "login";
     }
 
     @RequestMapping("/login")
@@ -48,7 +48,7 @@ public class UserController {
     public String reg(HttpServletRequest request, Model model){
         log.info("用户跳转到注册界面");
 
-        return "";
+        return "register";
     }
 
     @RequestMapping("/register")
