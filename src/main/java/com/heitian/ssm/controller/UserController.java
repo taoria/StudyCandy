@@ -30,4 +30,31 @@ public class UserController {
         model.addAttribute("userList",userList);
         return "showUser";
     }
+
+    @RequestMapping("/log")
+    public String log(HttpServletRequest request, Model model){
+        log.info("用户跳转到登录界面");
+        return "";
+    }
+
+    @RequestMapping("/login")
+    public String login(HttpServletRequest request, Model model){
+        log.info("用户登录");
+
+        return "";
+    }
+
+    @RequestMapping("/reg")
+    public String reg(HttpServletRequest request, Model model){
+        log.info("用户跳转到注册界面");
+
+        return "";
+    }
+
+    @RequestMapping("/register")
+    public String register(HttpServletRequest request, Model model){
+        log.info("用户-.注册");
+
+        return "";
+    }
 }
