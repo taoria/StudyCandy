@@ -48,8 +48,9 @@
         <property name="maxInMemorySize" value="4096"/>
     </bean>
 
+    <mvc:annotation-driven />
+
     <!-- 静态文件访问 -->
-    <mvc:resources mapping="/static/**" location="/static/" />
-
-
+    <mvc:resources mapping="**Y/static/**" location="/static/" />
+    
 </beans>

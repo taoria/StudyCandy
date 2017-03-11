@@ -6,12 +6,12 @@
 <title>Login</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- css -->
-<link rel="stylesheet" type="text/css" href="${__static__}/css/loginstyle.css">
+<link rel="stylesheet" type="text/css" href="../static/css/loginstyle.css">
 </head>
 <body>
 		<div class="loginheader">
 			<div class="headerimg">
-				<img src="${__static__}/img/logo-image.png">
+				<img src="../static/img/logo-image.png">
 			</div>
 			<div class="brand"><a href="#"><h1 id="h">学糖</h1></a></div>
 		</div>
